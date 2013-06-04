@@ -1,4 +1,4 @@
-jekyll-root
+Jekyll Root
 ===========
 
-A template/theme applicable for Jekyll
+A template/theme applicable for Jekyll.
