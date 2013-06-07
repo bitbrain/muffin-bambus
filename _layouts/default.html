@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>{% if page.title %} {{ page.title }} {% endif %} - Bam:bus Theme</title>
+		<title>{% if page.title %} {{ page.title }} {% endif %}</title>
 		<!-- For responsive site
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		-->
@@ -35,7 +35,10 @@
 	</header>
 
         <div class="content container main">
+                <div class="title">{{ page.title }}</div>
+                <div class="page_content">
 		{{ content }}
+		</div>
 	</div>
 
 	<footer role="contentinfo">
