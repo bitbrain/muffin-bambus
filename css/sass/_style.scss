@@ -16,6 +16,7 @@ Contents
 // --------------------------------------------------
 
 @import "custom/colors.scss";
+@import "custom/fonts.scss";
 
 // 2. Navigation
 // --------------------------------------------------
@@ -24,6 +25,27 @@ div.head {
    width:100%;
    background-color:$headColor;
    color:#ccc;
+}
+
+div.head .head_content {
+   padding-top:35px;
+   padding-bottom:35px;
+}
+
+div.head .left {
+   font-size:40px;
+   display:inline-block;
+   vertical-align:top;
+   color:$mainColor;
+}
+
+div.head .right {
+   display:inline-block;
+   vertical-align:top;
+}
+
+.alt {
+   color:$altColor;
 }
 
 
@@ -39,6 +61,7 @@ html, body {
    color:$contentColor;
    padding:0px;
    margin:0px;
+   font-family:ubuntu-webfont;
 }
 
 a {
