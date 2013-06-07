@@ -168,7 +168,8 @@ div.content .space {
 }
 div.content .title {
    font-size:38px;
-   margin-bottom:40px;
+   margin-bottom:30px;
+   line-height:50px;
 }
 
 div.page_content {
@@ -203,3 +204,17 @@ div.footer .links a {
    line-height:10px;
    border-left:1px solid #bbb;
 }
+
+.span6 {
+   margin-left:0px;
+   padding-left:30px;
+}
+
+.pagination a {
+   display:inline-block;
+}
+
+.pagination .previous {
+   float:right;
+}
+

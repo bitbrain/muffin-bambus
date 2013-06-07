@@ -1,15 +1,15 @@
-<div class="row">
-{% for post in paginator.posts %}
-  <div class="break_lined post span6" >
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="text">
-    {{ post.content }}
-  </div>
-  </div>
-{% endfor %}
+<div class="row-fluid">
+	{% for post in paginator.posts %}
+	  <div class="break_lined post span6" itemscope itemtype="http://schema.org/BlogPosting">
+	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	  <p class="author">
+	    <span class="date">{{ post.date }}</span>
+	  </p>
+	  <div class="text">
+	    {{ post.content }}
+	  </div>
+	  </div>
+	{% endfor %}
 </div>
 <div class="pagination">
   {% if paginator.previous_page %}
