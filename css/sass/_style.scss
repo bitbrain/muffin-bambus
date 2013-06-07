@@ -1,5 +1,3 @@
-//custom css goes here
-
 /*
 
 Contents
@@ -17,10 +15,16 @@ Contents
 // 1. Imports
 // --------------------------------------------------
 
+@import "custom/colors.scss";
 
 // 2. Navigation
 // --------------------------------------------------
 
+div.head {
+   width:100%;
+   background-color:$headColor;
+   color:#ccc;
+}
 
 
 // 3. Pages
@@ -29,3 +33,48 @@ Contents
 
 // 4. Shared Styles
 // --------------------------------------------------
+
+html, body {
+   background-color:$backgroundColor;
+   color:$contentColor;
+   padding:0px;
+   margin:0px;
+}
+
+a {
+   text-decoration:none;
+   color:$mainColor;
+}
+
+a:hover {
+   text-decoration:underline;
+   color:$mainColor;
+}
+
+a.button {
+   $from:#f2f2f2;
+   $to:#eaeaea;
+   color:#d4d4d4;
+   background-color:#eee;
+   padding:9px;
+   border:1px solid $borderColor;
+   border-radius:5px;
+   font-size:18px;
+display:inline-block;
+  /* fallback/image non-cover color */
+  background-color: $from;
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient($from, $to);
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient($from, $to);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient($from, $to);
+}
+
+a.button:hover {
+   color:#ccc;
+   text-decoration:none;
+   border-color:#ccc;
+}
