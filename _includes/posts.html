@@ -12,19 +12,21 @@
 	{% endfor %}
 </div>
 <div id="post-pagination" class="pagination">
-  {% if paginator.previous_page %}
-    <p class="previous">
-      {% if paginator.previous_page == 1 %}
-        <a href="/">Previous</a>
-      {% else %}
-        <a class="button" href="{{ paginator.previous_page_path }}">Previous</a>
-      {% endif %}
-    </p>
-  {% endif %}
+  
 
   {% if paginator.next_page %}
     <p class="next">
-      <a class="button" href="{{ paginator.next_page_path }}">Next</a>
+      <a class="button" href="/{{ paginator.next_page_path }}">Older posts</a>
+    </p>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <p class="previous">
+      {% if paginator.previous_page == 1 %}
+        <a class="button" href="/">Newer posts</a>
+      {% else %}
+        <a class="button" href="/{{ paginator.previous_page_path }}">Newer posts</a>
+      {% endif %}
     </p>
   {% endif %}
 
