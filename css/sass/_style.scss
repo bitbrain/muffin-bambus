@@ -28,26 +28,50 @@ div.head {
 }
 
 div.head .head_content {
-   padding-top:35px;
-   padding-bottom:35px;
+   padding-top:15px;
+   padding-bottom:25px;
 }
 
 div.head .left {
-   font-size:40px;
+   padding-top:40px;
+   font-size:50px;
    display:inline-block;
    vertical-align:top;
-   color:$mainColor;
+   color:$mainColor;     
+   cursor:default;
 }
 
 div.head .right {
    display:inline-block;
    vertical-align:top;
+   float:right;
+}
+
+.head_item i {
+   font-size:50px;   
 }
 
 .alt {
    color:$altColor;
 }
 
+.head_item .info {
+   color:$altColor;
+   text-align:center;
+   margin-top:10px;
+   font-size:22px;
+}
+
+a.head_item {
+   color:#999;
+   text-align:center;
+   display:inline-block;
+   margin-right:60px;
+}
+
+a.head_item:hover {
+   text-decoration:none;
+}
 
 // 3. Pages
 // --------------------------------------------------
@@ -56,12 +80,17 @@ div.head .right {
 // 4. Shared Styles
 // --------------------------------------------------
 
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
 html, body {
    background-color:$backgroundColor;
    color:$contentColor;
    padding:0px;
    margin:0px;
-   font-family:ubuntu-webfont;
+   font-family:ubuntu-webfont; 
 }
 
 a {
