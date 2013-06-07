@@ -2,13 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>{% if page.title %} {{ page.title }} {% endif %} - Bam:bus Theme Template</title>
+		<title>{% if page.title %} {{ page.title }} {% endif %} - Bam:bus Theme</title>
 		<!-- For responsive site
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		-->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<link rel="author" href="humans.txt">
-		<meta name="description" content="HTML5 Muffin Jekyll Theme">
+		<meta name="description" content="HTML5 Muffin Theme">
 		<link rel="stylesheet" href="css/style.css">
 		<!--[if IE 7]>
 			<html class="ie7"> 
@@ -25,20 +25,21 @@
 		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">	    
 	</head>
 	<body>
+
+
 	<!-- Header
 	    ================================================== -->
 
-    <nav role="navigation">
-    </nav>
-
 	<header role="banner">
-
+	{% include head.html %}
 	</header>
 
-	{{ content }}
+        <div class="content container main">
+		{{ content }}
+	</div>
 
 	<footer role="contentinfo">
-
+		{% include footer.html %}
 	</footer>
 
 	<!-- Footer
