@@ -93,16 +93,6 @@ a.head_item:hover .info {
 // 3. Pages
 // --------------------------------------------------
 
-.main_icon {
-   color:$mainColor;
-   width:140px;
-   height:140px;
-   display:inline;
-   float:left;
-   margin-right:40px;
-   margin-left:20px;
-}
-
 @media all and (max-width: 700px) and (min-width: 0px) {
       .head .left {
          display:none !important;
@@ -159,11 +149,6 @@ a.head_item:hover .info {
 .post-table h3 {
      line-height: 30px;
    }
-
-.author_button {
-   margin-top:15px;
-}
-
 
 .post .date {
    font-size:16px;
@@ -305,9 +290,7 @@ div.page_content {
    vertical-align:top;
    font-size:22px;
    color:#999;
-   line-height:38px;
-   padding-bottom:30px; 
-   margin-bottom:25px;  
+   line-height:38px; 
 }
 
 .break_lined {
@@ -356,4 +339,47 @@ div.footer .links a {
 
 .row-fluid [class*="span"] {
    margin-left: 0px !important;
+}
+
+.blog_author .author_button {
+   margin-top:15px;
+}
+
+.blog_author .main_icon {
+   color:$mainColor;
+   width:140px;
+   height:140px;
+   display:inline;
+   float:left;
+   margin-right:40px;
+   margin-left:20px;
+}
+
+.blog-post .blog_author .author_button {
+   margin-top:5px;
+}
+
+.blog-post .blog_author a.button {
+   font-size:14px;
+   line-height:25px;
+}
+
+.blog_author {
+   padding-bottom:30px;
+}
+
+.blog-post .blog_author {
+   font-size:16px;
+   line-height:32px;
+   padding-bottom:25px;
+   margin-bottom:30px;
+   padding-left:20px;
+   padding-right:20px;
+   padding-top:15px;
+}
+
+.blog-post .blog_author .main_icon {
+   width:80px;
+   height:80px;
+   margin-right:20px;
 }

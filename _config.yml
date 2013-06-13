@@ -1,4 +1,5 @@
 name: bam:bus
+info: Welcome to Bambus Theme
 pygments: true
 paginate: 4
 
@@ -28,7 +29,8 @@ author:
   name: Miguel Gonzalez
   email: miguel-gonzalez@gmx.de>
   url: http://my-reality.de
-  description: My <a>name</a>
+  description: Bambus is a minimal and clean theme for <a href="http://jekyllrb.com/">Jekyll</a>, built on the top of <a href="http://www.richbray.me/muffin">Muffin</a>.
+  image: /img/world-icon.png
   
 links:
 - url: link

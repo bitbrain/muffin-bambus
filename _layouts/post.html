@@ -41,8 +41,7 @@
                 <div class="title">{{ page.title }}</div>
                 <div class="more_info">
                 	<div class="date">{{ page.date | date: "%d %B %Y" }}</div>
-                	<div class="categories"></div>
-                	<div class="author"><a href="#">Miguel Gonzalez</a></div>
+                	 by <div class="author"><a href="#">Miguel Gonzalez</a></div>
                 </div>
                 <div class="page_content break_lined">
 		        <div class="excerpt break_lined">{{ page.excerpt }}</div>
@@ -50,6 +49,7 @@
 			{{ content }}
 			</div>
 		</div>
+		{% include author.html %}
 		<a href="/" class="button">Back to all posts</a>
            </div>
 	</div>
