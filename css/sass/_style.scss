@@ -144,8 +144,16 @@ a.head_item:hover .info {
    
    .post-table .post .break_lined {
       overflow:auto;
+      border:none;
    }
    
+}
+
+@media all and (max-width: 720px) {
+
+   .post-table .post .break_lined {
+      padding-bottom:25px;
+   }
 }
 
 .post-table h3 {
@@ -160,6 +168,8 @@ a.head_item:hover .info {
 .post .date {
    font-size:16px;
    color:rgb(192, 192, 192);
+   display:block;
+   margin-top:7px;
    
 }
 
@@ -296,7 +306,8 @@ div.page_content {
    font-size:22px;
    color:#999;
    line-height:38px;
-   padding-bottom:30px;   
+   padding-bottom:30px; 
+   margin-bottom:25px;  
 }
 
 .break_lined {
