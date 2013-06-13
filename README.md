@@ -1,11 +1,17 @@
 Muffin Bambus
 ===========
 
+![Bambus Logo](img/bambus-logo.png)
+
 A [Muffin](http://www.richbray.me/muffin) template/theme applicable for Jekyll, written by [Miguel Gonzalez](https://github.com/MyRealityCoding).
 
 Purpose
 -------
 Bambus is made for [the blog](http://my-reality.de) of Miguel Gonzalez. Any usage and modification and/or duplication is fully allowed.
+
+Design
+------
+![Bambus Design](img/design.png)
 
 Getting started
 ---------------
