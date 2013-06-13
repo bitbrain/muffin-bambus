@@ -1,12 +1,14 @@
-<div class="row-fluid">
+<div class="post-table">
 	{% for post in paginator.posts %}
-	  <div class="break_lined post span6" itemscope itemtype="http://schema.org/BlogPosting">
+	  <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	  <div class="break_lined">
 	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 	  <p class="author">
 	    <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
 	  </p>
 	  <div class="text">
 	    {{ post.excerpt }}
+	  </div>
 	  </div>
 	  </div>
 	{% endfor %}
