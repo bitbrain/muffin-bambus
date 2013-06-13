@@ -47,7 +47,7 @@ The colon ```:``` will be highlighted as white. It is recommended to use that be
 
 ### Navigation Menu
 
-To change the links and icons of the navigation bar, simply modify the file ```_config.yml``` of Jekyll. bam:bus supports FontAwesome icons. Here is an example how to define a custom link in the navigation bar:
+To change the links and icons of the navigation bar, simply modify the file ```_config.yml``` of Jekyll. bam:bus supports [FontAwesome icons](http://fortawesome.github.io/Font-Awesome/icons/). Here is an example how to define a custom link in the navigation bar:
 ```yml
 navigation:
 - text: Social
