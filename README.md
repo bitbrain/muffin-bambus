@@ -70,7 +70,7 @@ author:
 
 ### Links
 
-To add links in the footer, simply add the following lines into the file ```_config.yml:
+To add links in the footer, simply add the following lines into the file ```_config.yml```:
 
 ```yml
 links:
