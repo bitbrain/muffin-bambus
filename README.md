@@ -36,7 +36,16 @@ Setup
 
 You can customize the theme without changing code directly.
 
-### Navigation Bar
+### Site title
+
+You can change the default site title in the ```_config.yml``` file:
+
+```yml
+name: your:site
+```
+The colon ```:``` will be highlighted as white. It is recommended to use that because it fits in the theme of bam:bus.
+
+### Navigation Menu
 
 To change the links and icons of the navigation bar, simply modify the file ```_config.yml``` of Jekyll. bam:bus supports FontAwesome icons. Here is an example how to define a custom link in the navigation bar:
 ```yml
@@ -47,9 +56,31 @@ navigation:
   icon: icon-twitter
 ```
 
-### Footer
+### Meta data
 
-To add links to the footer modify ```_include/links.html```.
+To have some information about your person and a small description, customize the following lines in the ```_config.yml```:
+
+```yml
+author:
+  name: Miguel Gonzalez
+  email: miguel-gonzalez@gmx.de>
+  url: http://my-reality.de
+  description: My <a>name</a>
+```
+
+### Links
+
+To add links in the footer, simply add the following lines into the file ```_config.yml:
+
+```yml
+links:
+- url: link
+  name: Link1
+- url: link
+  name: Link2
+- url: link
+  name: Link3
+```
 
 Development
 -----------
