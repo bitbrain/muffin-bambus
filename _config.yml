@@ -1,3 +1,31 @@
 name: bam:bus theme
 pygments: true
 paginate: 6
+
+navigation:
+- text: Blog
+  title: News, Tutorials and more.
+  url: /index.html
+  icon: icon-coffee
+- text: Games
+  title: All about my games.
+  url: /games
+  icon: icon-gamepad
+- text: Code
+  title: My github account.
+  url: https://github.com/MyRealityCoding
+  icon: icon-github
+- text: Media
+  title: Videos, images and more.
+  url: /media
+  icon: icon-play-sign
+- text: Social
+  title: Follow me @tweetmyreality
+  url: https://twitter.com/tweetmyreality
+  icon: icon-twitter
+  
+author:
+  name: Miguel Gonzalez
+  email: miguel-gonzalez@gmx.de>
+  url: http://my-reality.de
+  description: My *name*

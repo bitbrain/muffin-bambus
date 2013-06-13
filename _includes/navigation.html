@@ -1,0 +1,11 @@
+{% for link in site.navigation %}
+       <a href="{{link.url}}" title="{{link.title}}" 
+       {% if page.url == link.url %}
+       		class="head_item current"
+       {% else %}
+       		class="head_item"
+       {% endif %}>
+        <i class="{{link.icon}}"></i>
+	<div class="info">{{link.text}}</div></a>
+{% endfor %}
+

@@ -57,7 +57,7 @@ div.head .right {
 }
 
 .head_item .info {
-   color:$altColor;
+   color:#d9d9d9;
    text-align:center;
    margin-top:10px;
    font-size:18px;
@@ -70,8 +70,20 @@ a.head_item {
    padding-left:60px;
 }
 
+div.head a.current i {
+   color:#a4b343;
+}
+
+div.head a.current .info {
+   color:$altColor;
+}
+
 a.head_item:hover {
    text-decoration:none;
+}
+
+a.head_item:hover .info {
+   color:$altColor;
 }
 
 // 3. Pages
@@ -91,6 +103,59 @@ a.head_item:hover {
    margin-top:15px;
 }
 
+
+.post .date {
+   font-size:16px;
+   color:rgb(192, 192, 192);
+   
+}
+
+.post h3 {
+   margin-bottom:0px;
+   font-size:22px;
+}
+
+.post {
+   padding-bottom:10px;
+}
+
+.blog-post .space {
+   padding:20px;
+   padding-top:10px;
+}
+
+.blog-post .more_info {
+   font-size:18px;
+   color:#ccc;
+}
+
+.blog-post .more_info div {
+   display:inline-block;
+}
+
+.blog-post .title {
+   font-size:36px !important;
+   margin-bottom:10px !important;
+}
+
+.blog-post .excerpt {
+    border-bottom:1px dashed #ddd;   
+    border-top:1px dashed #ddd;
+    margin-bottom:25px;
+    margin-top:25px;
+    padding-bottom:20px;
+    padding-top:20px;
+    padding-left:40px;
+    padding-right:40px;
+    font-size:22px;
+}
+
+.blog-post .blog_content {
+   color:#555;
+   font-size:16px;
+   line-height:30px;
+   text-align:justify;
+}
 
 // 4. Shared Styles
 // --------------------------------------------------
@@ -144,7 +209,7 @@ display:inline-block;
 }
 
 a.button:hover {
-   color:#ccc;
+   color:#bbb;
    text-decoration:none;
    border-color:#ccc;
 }
@@ -191,6 +256,7 @@ h1, h2, h3, h4, h5 {
 div.footer {
    color:#bbb;
    font-family:ubuntu-webfont-light;
+   margin-bottom:15px;
 }
 
 div.footer .info, div.footer .links {
@@ -220,4 +286,9 @@ div.footer .links a {
 
 .pagination p {
    display:inline-block;
+}
+
+
+.row-fluid [class*="span"] {
+   margin-left: 0px !important;
 }
