@@ -1,6 +1,6 @@
-name: bam:bus theme
+name: bam:bus
 pygments: true
-paginate: 6
+paginate: 4
 
 navigation:
 - text: Blog
@@ -28,4 +28,12 @@ author:
   name: Miguel Gonzalez
   email: miguel-gonzalez@gmx.de>
   url: http://my-reality.de
-  description: My *name*
+  description: My <a>name</a>
+  
+links:
+- url: link
+  name: Link1
+- url: link
+  name: Link2
+- url: link
+  name: Link3

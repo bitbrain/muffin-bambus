@@ -5,4 +5,7 @@
 <div class="footer container">
 <div class="info">bam:bus Theme Version 1.0 by <a href="http://my-reality.de">Miguel Gonzalez</a></div>
 <div class="links">
+{% for link in site.links %}
+       <a href="{{link.url}}">{{ link.name }}</a>
+{% endfor %}
 </div>

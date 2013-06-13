@@ -48,6 +48,10 @@ div.head .right {
    text-align:right;
 }
 
+div.head .left span {
+   color:$altColor;
+}
+
 .head_item i {
    font-size:45px;   
 }
@@ -117,6 +121,7 @@ a.head_item:hover .info {
 
 .post {
    padding-bottom:10px;
+   min-height:132px;
 }
 
 .blog-post .space {
