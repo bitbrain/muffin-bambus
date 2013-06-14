@@ -86,4 +86,8 @@ Development
 -----------
 To get involved simply fork this theme and make your improvements. Additionally some of them are mentioned in the issues section of bambus or mail to [miguel-gonzalez@gmx.de](mailto:miguel-gonzalez@gmx.de).
 
+Thanks to
+---------
+I want to thank [Richard Bray](http://www.richbray.me/) for providing an awesome design framework and [Amos Wenger](http://amos.me/) for inspiring me to create bam:bus.
+
 
