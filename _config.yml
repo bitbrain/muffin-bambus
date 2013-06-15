@@ -7,7 +7,7 @@ navigation:
 - text: Blog
   title: News, Tutorials and more.
   url: /index.html
-  icon: icon-coffee
+  icon: icon-book
 - text: Games
   title: All about my games.
   url: /games
