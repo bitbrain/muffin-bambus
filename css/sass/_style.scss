@@ -389,3 +389,42 @@ div.footer .links a {
    height:80px;
    margin-right:20px;
 }
+
+
+// 4. Custom table
+// --------------------------------------------------
+
+.bambus_table {
+   display:table;
+   width:100%;
+   font-size:16px;
+   margin-top:20px;
+   border-collapse: collapse;
+}
+
+.bambus_table_info {
+   color:#ccc;
+   border-top:none !important;
+}
+
+.bambus_table .text_center {
+   text-align:center;
+}
+
+.bambus_table .text_left {
+   text-align:left;
+}
+
+.bambus_table .text_left {
+   text-align:right;
+}
+
+.bambus_row {
+   display:table-row;
+   border-top:1px dashed #ddd;
+   padding:10px;
+}
+
+.bambus_cell {
+   display:table-cell;
+}
