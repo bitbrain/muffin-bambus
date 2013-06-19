@@ -8,8 +8,9 @@
 <div class="right">
 
 {% for link in site.navigation %}
+       {% assign current = link.url|append:"index.html" %}
        <a href="{{link.url}}" title="{{link.title}}" 
-       {% if page.url == link.url %}
+       {% if page.url == current %}
        		class="head_item current"
        {% else %}
        		class="head_item"

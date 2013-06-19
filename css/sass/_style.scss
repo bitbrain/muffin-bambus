@@ -159,7 +159,7 @@ a.head_item:hover .info {
 }
 
 .post h3 {
-   margin-bottom:0px;
+   margin-bottom:5px;
    font-size:22px;
 }
 
@@ -171,6 +171,8 @@ a.head_item:hover .info {
 .blog-post .space {
    padding:20px;
    padding-top:10px;
+   margin-left:30px !important;
+   margin-right:30px !important;
 }
 
 .blog-post .more_info {
@@ -197,6 +199,7 @@ a.head_item:hover .info {
     padding-left:40px;
     padding-right:40px;
     font-size:22px;
+    color:#999;
 }
 
 .blog-post .blog_content {
@@ -277,7 +280,7 @@ div.content {
 
 div.content .space {
    
-   margin:30px;
+   margin:45px;
    margin-top:40px;
 }
 div.content .title {
@@ -288,9 +291,16 @@ div.content .title {
 
 div.page_content {
    vertical-align:top;
+   font-size:16px;
+   line-height:30px;
+   text-align:justify;
+}
+
+.headline {
    font-size:22px;
    color:#999;
-   line-height:38px; 
+   line-height:38px;
+   text-align:left;
 }
 
 .break_lined {
@@ -299,12 +309,14 @@ div.page_content {
 
 h1, h2, h3, h4, h5 {
    font-weight:normal;
+   color:black;
 }
 
 div.footer {
    color:#bbb;
    font-family:ubuntu-webfont-light;
    margin-bottom:15px;
+   font-size:12px;
 }
 
 div.footer .info, div.footer .links {
@@ -380,8 +392,8 @@ div.footer .links a {
 }
 
 .blog-post h1, .blog-post h2 {
-   margin-top:25px;
-   margin-bottom:25px;
+   margin-top:35px;
+   margin-bottom:35px;
 }
 
 .blog-post .blog_author .main_icon {
@@ -389,7 +401,6 @@ div.footer .links a {
    height:80px;
    margin-right:20px;
 }
-
 
 // 4. Custom table
 // --------------------------------------------------
@@ -399,7 +410,9 @@ div.footer .links a {
    width:100%;
    font-size:16px;
    margin-top:20px;
+   margin-bottom: 27px;
    border-collapse: collapse;
+   border-bottom: 1px dashed #ddd;
 }
 
 .bambus_table_info {
@@ -423,6 +436,7 @@ div.footer .links a {
    display:table-row;
    border-top:1px dashed #ddd;
    padding:10px;
+   line-height:36px;
 }
 
 .bambus_cell {
