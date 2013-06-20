@@ -8,6 +8,7 @@
 update_dir=.muffin-update
 temp_dir=.muffin-temp
 dirs=(css font ico img _includes js _layouts)
+files=(update.sh watch.sh)
 
 echo "Preparing update.."
 
@@ -26,6 +27,13 @@ do
 	fi  
 done
 
+for file in ${files[@]}
+do
+	if [ -f $file ]; then
+		cp $file $temp_dir/$file
+	fi
+done
+
 echo "Download recent version.."
 
 git clone https://github.com/MyRealityCoding/muffin-bambus.git $update_dir
@@ -40,6 +48,15 @@ do
 
         mkdir $dir
 	cp -a $update_dir/$dir/* $dir
+done
+
+for file in ${files[@]}
+do
+	if [ -f $file ]; then
+		rm $file
+	fi
+
+	cp $update_dir/$file $file
 done
 
 echo "Cleanup.."
