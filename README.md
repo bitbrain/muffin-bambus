@@ -13,25 +13,18 @@ Design
 ------
 ![Bambus Design](img/design.png)
 
-Getting started
+How to install
 ---------------
 
-To use this theme you have to install the following software on your system:
+At first, download the latest version of bambus. Open the folder and make sure to run the install script before moving on:
 
-* [Ruby](http://www.ruby-lang.org/de/downloads/)
-* [RubyGems](http://rubygems.org/pages/download)
-* [Jekyll](http://jekyllrb.com/)
-* [Git](http://git-scm.com/downloads)
-
-After installing the software you can launch the site on port 4000. You've to type the following commands first into your console:
-```text
-# Launch jekyll
-jekyll serve
-# Launch Sass
-sh watch.sh
+```shell
+sh install.sh
 ```
 
-Setup
+After that you should be able to visit your website on *http://localhost:4000*
+
+Getting started
 -----
 
 You can customize the theme without changing code directly.
@@ -66,6 +59,7 @@ author:
   email: miguel-gonzalez@gmx.de>
   url: http://my-reality.de
   description: My <a>name</a>
+  image: /img/bambus-icon.png
 ```
 
 ### Links
