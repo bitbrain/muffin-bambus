@@ -4,39 +4,39 @@ pygments: true
 paginate: 4
 
 navigation:
-- text: Blog
-  title: News, Tutorials and more.
-  url: /index.html
+- text: About
+  title: About bambus
+  url: /
+  icon: icon-leaf
+- text: Wiki
+  title: Getting started
+  url: https://github.com/MyRealityCoding/muffin-bambus#muffin-bambus
   icon: icon-book
-- text: Games
-  title: All about my games.
-  url: /games
-  icon: icon-gamepad
-- text: Code
-  title: My github account.
-  url: https://github.com/MyRealityCoding
-  icon: icon-github
-- text: Media
-  title: Videos, images and more.
-  url: /media
-  icon: icon-play-sign
+- text: Author
+  title: About the author
+  url: http://my-reality.de
+  icon: icon-user
 - text: Social
-  title: Follow me @tweetmyreality
-  url: https://twitter.com/tweetmyreality
-  icon: icon-twitter
+  title: bambus on Facebook
+  url: http://facebook.com/bambus
+  icon: icon-facebook-sign
+- text: Download
+  title: Download recent version
+  url: https://github.com/MyRealityCoding/muffin-bambus/archive/master.zip
+  icon: icon-download-alt
   
 author:
   name: Miguel Gonzalez
-  email: miguel-gonzalez@gmx.de>
+  email: miguel-gonzalez@gmx.de
   url: https://github.com/MyRealityCoding/muffin-bambus#muffin-bambus
   label: "Getting started >"
   description: Bambus is a minimal and clean theme for <a href="http://jekyllrb.com/">Jekyll</a>, built on the top of <a href="http://www.richbray.me/muffin">Muffin</a>.
   image: /img/bambus-icon.png
   
 links:
-- url: link
-  name: Link1
-- url: link
-  name: Link2
-- url: link
-  name: Link3
+- url: http://jekyllrb.com
+  name: Jekyll
+- url: http://www.richbray.me/muffin/#feat
+  name: Muffin
+- url: http://my-reality.de
+  name: Blog
