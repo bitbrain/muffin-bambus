@@ -15,8 +15,15 @@ mkdir $temp_dir -p
 
 for dir in ${dirs[@]}
 do
-	mkdir $temp_dir/$dir -p
-	cp -a $dir/* $temp_dir/$dir  
+	currentdir=$temp_dir/$dir	
+
+	if [ ! -d $currentdir ]; then
+		mkdir $currentdir -p
+	fi
+
+        if [ -d $dir ] && [ "$(ls -A $dir)" ]; then
+		cp -a $dir/* $currentdir
+	fi  
 done
 
 echo "Download recent version.."
@@ -26,14 +33,19 @@ git clone https://github.com/MyRealityCoding/muffin-bambus.git $update_dir
 echo "Copying files.."
 
 for dir in ${dirs[@]}
-        rm $dir/*
-	cp -a $update_dir/$dir $dir
+do
+	if [ -d $dir ]; then
+        	rm -rf $dir
+        fi
+
+        mkdir $dir
+	cp -a $update_dir/$dir/* $dir
 done
 
 echo "Cleanup.."
 
-rm -r $update_dir
-rm -r $temp_dir
+rm -rf $update_dir
+rm -rf $temp_dir
 
 echo "Done."
 
