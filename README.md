@@ -14,15 +14,24 @@ Design
 ![Bambus Design](img/design.png)
 
 How to install
----------------
+--------------
 
 At first, download the latest version of bambus. Open the folder and make sure to run the install script before moving on:
 
-```shell
+```bash
 sh install.sh
 ```
 
 After that you should be able to visit your website on *http://localhost:4000*
+
+How to update
+--------------
+
+To fetch the latest version of bambus simply run:
+
+```bash
+bash update.sh
+```
 
 Getting started
 -----
