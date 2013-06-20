@@ -450,7 +450,7 @@ div.footer .links a {
 // --------------------------------------------------
 
 code, pre {
-	font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
+	font-family: sourcecode-pro;
 	font-size:0.95em;
 	margin: 1em 0 1.5em 0;
         line-height:20px;
@@ -464,7 +464,7 @@ code, pre {
 
 .highlight span
 {
-font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
+font-family: sourcecode-pro;
 font-size:1em;
 }
 
@@ -473,23 +473,23 @@ font-size:1em;
 .highlight  { /*background: #272822;*/ color: #333 }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
-.highlight .k { color: #a4b343 } /* Keyword */
+.highlight .k { color: #919E3E } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
 .highlight .n { color: #333 } /* Name */
 .highlight .o { color: black } /* Operator */
 .highlight .p { color: #333 } /* Punctuation */
 .highlight .cm { color: #999 } /* Comment.Multiline */
-.highlight .cp { color: #999; font-style:italic; } /* Comment.Preproc */
+.highlight .cp { color: #999; } /* Comment.Preproc */
 .highlight .c1 { color: #999 } /* Comment.Single */
 .highlight .cs { color: #999 } /* Comment.Special */
 .highlight .ge { font-style: italic } /* Generic.Emph */
 .highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .kc { color: #a4b343 } /* Keyword.Constant */
-.highlight .kd { color: #a4b343 } /* Keyword.Declaration */
-.highlight .kn { color: #a4b343 } /* Keyword.Namespace */
-.highlight .kp { color: #a4b343 } /* Keyword.Pseudo */
-.highlight .kr { color: #a4b343 } /* Keyword.Reserved */
-.highlight .kt { color: #a4b343 } /* Keyword.Type */
+.highlight .kc { color: #919E3E } /* Keyword.Constant */
+.highlight .kd { color: #919E3E } /* Keyword.Declaration */
+.highlight .kn { color: #919E3E } /* Keyword.Namespace */
+.highlight .kp { color: #919E3E } /* Keyword.Pseudo */
+.highlight .kr { color: #919E3E } /* Keyword.Reserved */
+.highlight .kt { color: #919E3E } /* Keyword.Type */
 .highlight .ld { color: #e6db74 } /* Literal.Date */
 .highlight .m { color: #ae81ff } /* Literal.Number */
 .highlight .s { color: #B98932 } /* Literal.String */
