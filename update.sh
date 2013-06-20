@@ -14,6 +14,7 @@ echo "Preparing update.."
 mkdir $temp_dir -p
 
 for dir in $dirs
+do
 	mkdir $temp_dir/$dir -p
 	cp -a $dir/* $temp_dir/$dir  
 done
