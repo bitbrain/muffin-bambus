@@ -446,6 +446,20 @@ div.footer .links a {
    display:table-cell;
 }
 
+ul {
+   margin-left:0px;
+}
+
+li {
+   line-height:30px;
+   color:#aaa;
+   list-style:none;
+   padding-left:30px;
+   background-image:url(/img/check-icon.png);
+   background-repeat:no-repeat;
+   background-position: left center;
+}
+
 // 4. Synthax
 // --------------------------------------------------
 
