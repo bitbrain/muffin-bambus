@@ -24,6 +24,15 @@ sh install.sh
 
 After that you should be able to visit your website on *http://localhost:4000*
 
+How to build
+------------
+
+To build your website, run:
+
+```bash
+sh build.sh
+```
+
 How to update
 --------------
 
