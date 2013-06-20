@@ -13,7 +13,7 @@ echo "Preparing update.."
 
 mkdir $temp_dir -p
 
-for dir in $dirs
+for dir in ${dirs[@]}
 do
 	mkdir $temp_dir/$dir -p
 	cp -a $dir/* $temp_dir/$dir  
@@ -25,7 +25,7 @@ git clone https://github.com/MyRealityCoding/muffin-bambus.git $update_dir
 
 echo "Copying files.."
 
-for dir in $dirs
+for dir in ${dirs[@]}
         rm $dir/*
 	cp -a $update_dir/$dir $dir
 done
